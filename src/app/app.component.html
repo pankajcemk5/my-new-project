@@ -41,3 +41,5 @@
       <li *ngFor="let carName of carData">{{carName}}</li>
     </ul>
 </div> 
+
+<p [@myAwesomeAnimations]='state' (click) = "clickEvent($event)" class="animatePara"> I will animate</p>
